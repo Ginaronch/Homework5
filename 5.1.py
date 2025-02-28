@@ -15,4 +15,4 @@ elif user_input in keyword.kwlist:
     print(False)
 else:
     print(True)
-#ne komititsa
+#ne komititsa1

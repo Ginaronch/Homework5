@@ -9,7 +9,7 @@ elif any(element.isupper() for element in user_input):
     print(False)
 elif any(element in string.punctuation.replace("_", "") for element in user_input):
     print(False)
-elif user_input.count("_") > 1 and all(char == "_" for char in user_input):
+elif user_input.count("_") > 1 and len(user_input) == user_input.count("_"):
     print(False)
 elif user_input in keyword.kwlist:
     print(False)
